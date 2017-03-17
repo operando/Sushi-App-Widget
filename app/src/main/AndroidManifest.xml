@@ -19,6 +19,7 @@
         <receiver android:name=".SuShiWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.os.operando.widget.sushi.TAP_SUSHI" />
             </intent-filter>
 
             <meta-data
